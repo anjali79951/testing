@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+	  <parameter name="browser" value="ed"/>
+	  <parameter name="url" value="https://bsadar.github.io/hmrbuild1/Loging.html"/>
+    <classes>
+      <class name="testngpracties.Regcross"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test thread-count="5" name="Test2">
+	  <parameter name="browser" value="cb"/>
+	    <parameter name="url" value="https://bsadar.github.io/hmrbuild1/Loging.html"/>
+    <classes>
+      <class name="testngpracties.Regcross"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Testcase1">
+	  <parameter name="browser" value="ed"/>
+	  <parameter name="url" value="https://bsadar.github.io/hmrbuild1/Loging.html"/>
+     <classes>
+      <class name="selfpractiestng.Testpracties"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Testcase2">
+	  <parameter name="browser" value="cb"/>
+	  <parameter name="url" value="https://bsadar.github.io/hmrbuild1/Loging.html"/>
+     <classes>
+      <class name="selfpractiestng.Testpracties"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+</suite> <!-- Suite -->
